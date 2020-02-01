@@ -1,0 +1,45 @@
+section#revs
+	.container
+		+gt('','отзывы')
+		.row
+			each n in [1,2,3,4]
+				.col-md-3.col-sm-3
+					a(href="img/revs/text-"+n+".jpg" data-fancybox="text-revs")
+						img.text-rev-img(src="img/revs/text-"+n+".min.jpg" alt="Отзыв "+n)
+		.row
+			each n in [5,6,7,8]
+				.col-md-3.col-sm-3
+					a(href="img/revs/text-"+n+".jpg" data-fancybox="text-revs")
+						img.text-rev-img(src="img/revs/text-"+n+".min.jpg" alt="Отзыв "+n)
+		.row
+			each n in [9,10,11,12]
+				.col-md-3.col-sm-3
+					a(href="img/revs/text-"+n+".jpg" data-fancybox="text-revs")
+						img.text-rev-img(src="img/revs/text-"+n+".min.jpg" alt="Отзыв "+n)
+		.row
+				.col-md-3.col-sm-3.col-md-offset-3.col-sm-offset-3
+					a(href="img/revs/text-13.jpg" data-fancybox="text-revs")
+						img.text-rev-img(src="img/revs/text-13.min.jpg" alt="Отзыв 13")
+				.col-md-3.col-sm-3
+					a(href="img/revs/text-14.jpg" data-fancybox="text-revs")
+						img.text-rev-img(src="img/revs/text-14.min.jpg" alt="Отзыв 14")
+		+gt('general-title-revs','видео-отзывы')
+		.row
+			each yt, n in {1:'bXe9je30QbM',2:'ZDaSiUUvTzI',3:'nfFRj_1g0TQ'}
+				.col-md-4.col-sm-4
+					.video-wrapper.video-wrapper-rev(data-youtube=yt)
+						img.video-rev-img(src="img/revs/video-"+n+".jpg" alt="Видео-отзыв "+n)
+		.row
+			each yt, n in {4:'gmm_eSfEbqw',5:'hjvlAXipPbc',6:'6q-8k1Xepxg'}
+				.col-md-4.col-sm-4
+					.video-wrapper.video-wrapper-rev(data-youtube=yt)
+						img.video-rev-img(src="img/revs/video-"+n+".jpg" alt="Видео-отзыв "+n)
+		.row
+			each yt, n in {7:'mImv2yx_0gk',8:'r9WsHS5Dv4k',9:'tMzZaXVbkXc'}
+				.col-md-4.col-sm-4
+					.video-wrapper.video-wrapper-rev(data-youtube=yt)
+						img.video-rev-img(src="img/revs/video-"+n+".jpg" alt="Видео-отзыв "+n)
+		.row
+			.col-md-4.col-sm-4.col-md-offset-4.col-sm-offset-4
+				.video-wrapper.video-wrapper-rev(data-youtube="hNcQoTdJCTQ")
+					img.video-rev-img(src="img/revs/video-10.jpg" alt="Видео-отзыв 10")
