@@ -1,0 +1,42 @@
+header
+	padding 5px 0
+	overflow hidden
+	margin-bottom: 40px
+	background-color: rgba(#f2d6c7,.6)
+	box-shadow: 0px 4px 4.55px 0.45px rgba(44, 56, 48, 0.6);
+
+.header-logo
+	float left
+	width 140px
+	height 62px
+	background-image url(../img/images/logo.png)
+	background-repeat no-repeat
+	background-position: center
+	background-size contain
+.contacts
+	text-align: right
+	float: right
+.contact
+	display: inline-block
+	line-height: 62px
+	color #6B0C5F
+	margin-left: 25px
+	background-repeat no-repeat
+	background-position: left center
+	font-family: PNBd
+	&&-tel
+		padding-left: 30px
+		background-image url(../img/icons/tube.png)
+		&:first-of-type
+			margin-left: 0
+	&&-skype
+		padding-left: 34px
+		background-image url(../img/icons/skype.png)
+	&&-email
+		padding-left: 44px
+		background-image url(../img/icons/envelope.png)
+	&:focus
+		color #5c145d
+	&:hover
+		text-decoration: underline
+		color #5c145d
