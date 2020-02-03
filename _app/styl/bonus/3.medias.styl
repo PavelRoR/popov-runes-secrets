@@ -5,8 +5,11 @@
 		width 1400px
 	.contact
 		font-size: 18px
+	.main-title
 	.remind-main-title
 		margin-top: 100px
+	.main-title.main-title-confirm
+		margin-top: 0
 @media screen and (max-width 1199px)
 	header
 		padding 15px 0
@@ -21,11 +24,15 @@
 		float: none
 	.contact
 		line-height: 1.3
-		background-size: 30px
+		background-size: contain
+		background-position: center left
 	.contact.contact-email
 	.contact.contact-skype
 	.contact.contact-tel
 		padding-left: 30px
+		margin-left: 8px
+	.contact.contact-email
+		padding-left: 35px
 	.about-item
 		background-position: bottom right -350px
 		background-size: auto
@@ -38,6 +45,11 @@
 		padding 30px
 		background-image: none
 @media screen and (max-width 485px)
+	.pre
+		font-size: 18px
+	header
+		padding 10px 0
+		margin-bottom: 20px
 	#main
 		padding 0 0 40px
 	.header-logo
@@ -50,19 +62,24 @@
 	.contact.contact-email
 	.contact.contact-skype
 	.contact.contact-tel
-		padding-left: 17px
-	#confirm
-		padding-top: 10px
+		padding-left: 22px
 	.main-title
-		font-size: 22px
+		font-size: 28px
+		line-height: 1.3
+		a
+			font-size: 32px
 	.main-title.main-title-confirm
 		font-size: 22px
 		margin-bottom: 15px
+	.main-info
+		margin-top: 5px
 	.remind-main-title
 		margin-bottom: 20px
 	.main-subtitle
 	.remind-main-subtitle
 		font-size: 20px
+	.remind-main-subtitle
+		line-height: 1.2
 	.main-subtitle
 		margin 10px 0 15px
 	.main-title.main-title-confirm + h2
@@ -86,21 +103,6 @@
 			font-size: 12px
 	.soc-buttons a
 		margin 10px 5px
-	.description
-		margin-top: 30px
-		&-text
-			font-size: 18px
-			margin-bottom: 10px
-	#about
-		padding 40px 0
-	.about-item-title
-		font-size: 22px
-		margin-bottom: 20px
-	.about-item
-		padding 20px
-		margin-bottom: 30px
-	.about-item-list
-		margin-left: 10px
 @media screen and (max-width 385px)
 	.remind-main-title
 	.main-title.main-title-confirm
@@ -115,3 +117,12 @@
 		padding 15px
 	.about-item-list
 		margin-left: 15px
+	.main-info
+		font-size: 20px
+		margin-top: 15px
+		line-height: 1.3
+		span
+			padding 5px
+			font-size: 22px
+	.video-wrapper-main
+		margin-top: 20px
