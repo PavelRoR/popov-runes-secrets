@@ -8,7 +8,7 @@ if (isIE) {
     var head = document.getElementsByTagName("head")[0];
     var link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "css/ie.min.css";
+    link.href = "../css/ie.min.css";
     head.appendChild(link);
 }
 $(document).ready(function () {
@@ -16,39 +16,8 @@ $(document).ready(function () {
         var check = $('.check', this),
             email = $('.input-mail', this),
             message = $('.alert-message', this),
-            button = $('.button-form', this),
-            switch_title = $('.switch-title'),
-            switch_text = $('.switch-text'),
-            // modal_text = $('.modal-text'),
-            // last_container_title = $('.last-container-title'),
-            currDate = new Date(),
-            startDate = new Array(
-                new Date("February 24 2020 18:30 UTC+3"),
-                new Date("February 25 2020 18:30 UTC+3"),
-                new Date("February 26 2020 18:30 UTC+3"),
-                new Date("February 27 2020 18:30 UTC+3"),
-                new Date("February 28 2020 18:30 UTC+3")),
-            endDate = new Array(
-                new Date("February 24 2020 21:00 UTC+3"),
-                new Date("February 25 2020 21:00 UTC+3"),
-                new Date("February 26 2020 21:00 UTC+3"),
-                new Date("February 27 2020 21:00 UTC+3"),
-                new Date("February 28 2020 21:00 UTC+3")),
-            rooms = new Array(
-                '',
-                '',
-                '',
-                '',
-                '');
+            button = $('.button-form', this);
 
-        function roomSwitch() {
-            switch_title.html('А Вы записались на БЕСПЛАТНЫЙ ВЕБИНАР?<br>ЖДЕМ ТОЛЬКО ВАС!').css('lineHeight', '1.2');
-            switch_text.removeClass('hide').html('<span class="hurryup">Скорее ЗАХОДИТЕ прямо СЕЙЧАС на вебинар!</span><br>Присоединяйтесь к интенсиву и окунитесь в мир практической философии! Познайте этот мир и себя в нём!');
-            button.text('Зайти!');
-        }
-        if ((currDate > startDate[0] && currDate < endDate[0]) || (currDate > startDate[1] && currDate < endDate[1]) || (currDate > startDate[2] && currDate < endDate[2]) || (currDate > startDate[3] && currDate < endDate[3]) || (currDate > startDate[4] && currDate < endDate[4])) {
-            roomSwitch();
-        }
         $(".form").on("submit", function () {
             var check = $('.check', this),
                 message = $('.alert-message', this),
@@ -72,21 +41,6 @@ $(document).ready(function () {
                 return false;
             }
             if (email.val() && check) {
-                if (currDate > startDate[0] && currDate < endDate[0]) {
-                    window.open(rooms[0]);
-                }
-                if (currDate > startDate[1] && currDate < endDate[1]) {
-                    window.open(rooms[1]);
-                }
-                if (currDate > startDate[2] && currDate < endDate[2]) {
-                    window.open(rooms[2]);
-                }
-                if (currDate > startDate[3] && currDate < endDate[3]) {
-                    window.open(rooms[3]);
-                }
-                if (currDate > startDate[4] && currDate < endDate[4]) {
-                    window.open(rooms[4]);
-                }
                 button.text('Отправляем...');
                 setTimeout(function () {
                     button.text('Отправлено!');
@@ -95,7 +49,6 @@ $(document).ready(function () {
             }
         });
         email.click(function () {
-            // email.css({"borderColor": "rgb(25, 10, 12)",'transition':'all .4s ease'});
             message.slideUp(500);
         });
         check.click(function () {
