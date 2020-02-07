@@ -45,6 +45,7 @@ $(document).ready(function () {
             switch_title.html('А Вы записались на БЕСПЛАТНЫЙ ВЕБИНАР?<br>ЖДЕМ ТОЛЬКО ВАС!').css('lineHeight', '1.2');
             switch_text.removeClass('hide').html('<span class="hurryup">Скорее ЗАХОДИТЕ прямо СЕЙЧАС на вебинар!</span><br>Присоединяйтесь к интенсиву и окунитесь в мир практической философии! Познайте этот мир и себя в нём!');
             button.text('Зайти!');
+            $('.modal-col:first-of-type').addClass('switch-col');
         }
         if ((currDate > startDate[0] && currDate < endDate[0]) || (currDate > startDate[1] && currDate < endDate[1]) || (currDate > startDate[2] && currDate < endDate[2]) || (currDate > startDate[3] && currDate < endDate[3]) || (currDate > startDate[4] && currDate < endDate[4])) {
             roomSwitch();
