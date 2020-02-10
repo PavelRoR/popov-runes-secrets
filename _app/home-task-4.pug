@@ -1,0 +1,21 @@
+-var head_url = 'https://popov.mastervision.su/runes-secrets/home-task-4/';
+-var head_title = 'Как сделать красивый пресс';
+-var head_description = '4 домашнее задание от Василия Попова';
+-var video = 'uWRlbd44qGE';
+-var styles = '../css/bonus.min.css';
+-var fb_content = '2030481470529055'
+-var fav_ico = '../favicon.ico'
+-var fav_png = '../favicon.png'
+-var text = 'Напишите в комментариях о том, каким образом данный скрипт оказался для Вас рабочим'
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		include pug/head
+		include pug/scripts/head_fb_scripts
+	body
+		include pug/scripts/body_top_fb_scripts
+		include pug/ht/1.main.pug
+		include pug/ht/2.feedback.pug
+		include pug/bonus/3.footer.pug
+		script(src="../js/bonus.min.js")
+		include pug/scripts/body_bottom_scripts

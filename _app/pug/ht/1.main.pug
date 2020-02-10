@@ -1,0 +1,10 @@
+section#main.ht-main
+	include ../0.header.pug
+	.container
+		h1.main-title=head_title
+		p.pre=head_description
+		p.main-info Старт онлайн-мастер-класса: 
+			span с 24 февраля, в 19:00 (МСК)
+		.video-wrapper.video-wrapper-main
+			iframe(src="https://www.youtube.com/embed/"+video+"?rel=0&autoplay=1&mute=1" allowfullscreen)
+		p.main-text=text
