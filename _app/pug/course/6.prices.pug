@@ -12,7 +12,7 @@
 
 section#prices
 	.container
-		+gt('','Выберите свой вариант участия')
+		+gt('general-title-prices','Выберите свой вариант участия')
 		.packets
 			.row
 				.col-md-4.col-sm-4
@@ -20,11 +20,13 @@ section#prices
 						.packet-head
 							h4.packet-head-title
 								small пакет
-								| 
+								| "Серебро"
 						.packet-body
+							h5.packet-body-title Атты
+							p.more-button(data-toggle="modal" data-target="#Modal-1") подробнее
 						.packet-footer
 							p.cost.cost-full Стоимость:
-								span
+								span 14 900р.
 							p.cost.cost-sale Ссылка:
 								span#sale-1=sale_1
 							p.cost.cost-today Стоимость сегодня:
@@ -35,11 +37,17 @@ section#prices
 						.packet-head
 							h4.packet-head-title
 								small пакет
-								| 
+								| "Золото"
 						.packet-body
+							h5.packet-body-title ВСЁ, что входит в пакет "СЕРЕБРО" 
+								br
+								| + 
+								br
+								| Активация видения. Сборка Личности. Высшее Я
+							p.more-button(data-toggle="modal" data-target="#Modal-2") подробнее
 						.packet-footer
 							p.cost.cost-full Стоимость:
-								span
+								span 27 900р.
 							p.cost.cost-sale Ссылка:
 								span#sale-2=sale_2
 							p.cost.cost-today Стоимость сегодня:
@@ -50,11 +58,17 @@ section#prices
 						.packet-head
 							h4.packet-head-title
 								small пакет
-								| 
+								| "Платина"
 						.packet-body
+							h5.packet-body-title ВСЁ, что входит в пакеты "СЕРЕБРО" и "ЗОЛОТО" 
+								br
+								| +
+								br
+								| Магия Древа Иггдрасиль. Параллельные Миры
+							p.more-button(data-toggle="modal" data-target="#Modal-3") подробнее
 						.packet-footer
 							p.cost.cost-full Стоимость:
-								span
+								span 39 900р.
 							p.cost.cost-sale Ссылка:
 								span#sale-3=sale_3
 							p.cost.cost-today Стоимость сегодня:

@@ -13,6 +13,15 @@ if (isIE) {
     head.appendChild(link);
 }
 $(document).ready(function () {
+    /* Якорь */
+    $("a[href='#prices']").click(function (h) {
+        h.preventDefault();
+        var f = $(this).attr("href"),
+            g = $(f).offset().top;
+        $("body,html").animate({
+            scrollTop: g
+        }, 1500)
+    });
     /* Таймер */
     var clock;
     var futureDate = new Date("January 10, 2020 00:00 AM UTC+3");
