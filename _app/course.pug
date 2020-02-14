@@ -1,0 +1,35 @@
+-var head_url = 'https://popov.mastervision.su/runes-secrets/course/';
+-var head_title = '«Секреты рун»';
+-var head_description = 'Обучающий курс Василия Попова';
+-var styles = '../css/course.min.css';
+-var fav_ico = '../favicon.ico';
+-var fav_png = '../favicon.png';
+
+mixin gt(cl,h3)
+	h3.general-title(class=cl)=h3
+mixin b(cl,href,p,target,id)
+	.button-wrapper(class=cl)
+		a.button.button-1(class=cl href=href target=target id=id)=p
+
+<!DOCTYPE html>
+html(lang="ru")
+	head
+		include pug/head
+		include pug/scripts/head_scripts
+	body
+		include pug/scripts/body_top_scripts
+		include pug/course/1.main.pug
+		include pug/course/2.about.pug
+		include pug/course/3.lets.pug
+		include pug/course/4.plan.pug
+		include pug/course/5.results.pug
+		include pug/course/6.features.pug
+		include pug/course/7.prices.pug
+		include pug/course/8.author.pug
+		include pug/course/9.revs.pug
+		include pug/course/10.recs.pug
+		include pug/course/11.last.pug
+		include pug/course/12.footer.pug
+		include pug/course/13.scripts.pug
+		//- include pug/scripts/chat
+		include pug/scripts/body_bottom_scripts

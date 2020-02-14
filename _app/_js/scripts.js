@@ -19,8 +19,6 @@ $(document).ready(function () {
             button = $('.button-form', this),
             switch_title = $('.switch-title'),
             switch_text = $('.switch-text'),
-            // modal_text = $('.modal-text'),
-            // last_container_title = $('.last-container-title'),
             currDate = new Date(),
             startDate = new Array(
                 new Date("February 24 2020 18:30 UTC+3"),
