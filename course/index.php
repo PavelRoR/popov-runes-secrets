@@ -15,11 +15,107 @@
 	<link rel="icon" type="image/x-icon" href="../favicon.ico" />
 	<link rel="shortcut icon" type="image/x-icon" href="../favicon.png" />
 	<link rel="stylesheet" href="../css/course.min.css" />
-	<script type="text/javascript">! function() {var t = document.createElement("script");t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?160", t.onload = function() {VK.Retargeting.Init("VK-RTRG-350620-gJCgg"), VK.Retargeting.Hit()}, document.head.appendChild(t)}();</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt="" /></noscript><!-- Global site tag (gtag.js) - Google Analytics --><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script><script>window.dataLayer = window.dataLayer || [];function gtag() {dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-130434463-1');</script><!-- Facebook Pixel Code --><script>! function(f, b, e, v, n, t, s) {if (f.fbq) return;n = f.fbq = function() {n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)};if (!f._fbq) f._fbq = n;n.push = n;n.loaded = !0;n.version = '2.0';n.queue = [];t = b.createElement(e);t.async = !0;t.src = v;s = b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t, s)}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');fbq('init', '2406475009380573');fbq('track', 'PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2406475009380573&amp;ev=PageView&amp;noscript=1" /></noscript><!-- End Facebook Pixel Code -->
+	<script type="text/javascript">
+		! function() {
+			var t = document.createElement("script");
+			t.type = "text/javascript", t.async = !0, t.src = "https://vk.com/js/api/openapi.js?160", t.onload = function() {
+				VK.Retargeting.Init("VK-RTRG-350620-gJCgg"), VK.Retargeting.Hit()
+			}, document.head.appendChild(t)
+		}();
+	</script><noscript><img src="https://vk.com/rtrg?p=VK-RTRG-350620-gJCgg" style="position:fixed; left:-999px;" alt="" /></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-130434463-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'UA-130434463-1');
+	</script><!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '2406475009380573');
+		fbq('track', 'PageView');
+	</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2406475009380573&amp;ev=PageView&amp;noscript=1" /></noscript><!-- End Facebook Pixel Code -->
 </head>
 
 <body>
-	<!-- Yandex.Metrika counter --><script type="text/javascript">(function(d, w, c) {(w[c] = w[c] || []).push(function() {try {w.yaCounter35450015 = new Ya.Metrika({id: 35450015,clickmap: true,trackLinks: true,accurateTrackBounce: true,webvisor: true});} catch (e) {}});var n = d.getElementsByTagName("script")[0],s = d.createElement("script"),f = function() {n.parentNode.insertBefore(s, n);};s.type = "text/javascript";s.async = true;s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);} else {f();}})(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/35450015" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- Rating@Mail.ru counter --><script type="text/javascript">var _tmr = window._tmr || (window._tmr = []);_tmr.push({id: "3089960",type: "pageView",start: (new Date()).getTime(),pid: "USER_ID"});(function(d, w, id) {if (d.getElementById(id)) return;var ts = d.createElement("script");ts.type = "text/javascript";ts.async = true;ts.id = id;ts.src = "https://top-fwz1.mail.ru/js/code.js";var f = function() {var s = d.getElementsByTagName("script")[0];s.parentNode.insertBefore(ts, s);};if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false);} else {f();}})(document, window, "topmailru-code");</script><noscript><div><img src="https://top-fwz1.mail.ru/counter?id=3089960;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div></noscript><!-- //Rating@Mail.ru counter -->
+	<!-- Yandex.Metrika counter -->
+	<script type="text/javascript">
+		(function(d, w, c) {
+			(w[c] = w[c] || []).push(function() {
+				try {
+					w.yaCounter35450015 = new Ya.Metrika({
+						id: 35450015,
+						clickmap: true,
+						trackLinks: true,
+						accurateTrackBounce: true,
+						webvisor: true
+					});
+				} catch (e) {}
+			});
+			var n = d.getElementsByTagName("script")[0],
+				s = d.createElement("script"),
+				f = function() {
+					n.parentNode.insertBefore(s, n);
+				};
+			s.type = "text/javascript";
+			s.async = true;
+			s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js";
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else {
+				f();
+			}
+		})(document, window, "yandex_metrika_callbacks");
+	</script><noscript>
+		<div><img src="https://mc.yandex.ru/watch/35450015" style="position:absolute; left:-9999px;" alt="" /></div>
+	</noscript><!-- /Yandex.Metrika counter -->
+	<!-- Rating@Mail.ru counter -->
+	<script type="text/javascript">
+		var _tmr = window._tmr || (window._tmr = []);
+		_tmr.push({
+			id: "3089960",
+			type: "pageView",
+			start: (new Date()).getTime(),
+			pid: "USER_ID"
+		});
+		(function(d, w, id) {
+			if (d.getElementById(id)) return;
+			var ts = d.createElement("script");
+			ts.type = "text/javascript";
+			ts.async = true;
+			ts.id = id;
+			ts.src = "https://top-fwz1.mail.ru/js/code.js";
+			var f = function() {
+				var s = d.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(ts, s);
+			};
+			if (w.opera == "[object Opera]") {
+				d.addEventListener("DOMContentLoaded", f, false);
+			} else {
+				f();
+			}
+		})(document, window, "topmailru-code");
+	</script><noscript>
+		<div><img src="https://top-fwz1.mail.ru/counter?id=3089960;js=na" style="border:0;position:absolute;left:-9999px;" alt="Top.Mail.Ru" /></div>
+	</noscript><!-- //Rating@Mail.ru counter -->
 	<section id="main">
 		<header>
 			<div class="container"><a class="header-logo" href="https://mastervision.su" target="_blank"></a>
@@ -133,33 +229,65 @@
 				<div class="row">
 					<div class="col-md-7 col-sm-6">
 						<h4 class="module-title">Пакет" ПЛАТИНА":</h4>
-						<h5 class="module-subtitle">ВСЁ, что входит в пакеты "СЕРЕБРО" и "ЗОЛОТО" + Магия Древа Иггдрасиль. Параллельные Миры</h5>
+						<h5 class="module-subtitle">ВСЁ, что входит в пакеты СЕРЕБРО и ЗОЛОТО + Руническая мантика</h5>
 						<ol class="module-list">
-							<li><span>Введение в магию параллельных миров. Древо Иггдрасиль как карта. Классификация Миров Иггдрасиль. Понятие порталов. Высокочастотные и низкочастотные порталы. Создание ВЧ порталов. Навигация по мирам Иггдрасиль. Практическая польза от работы с параллельными мирами</span></li>
-							<li><span>Миры Иггдрасиль. Мидгард. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Мидгарда</span></li>
-							<li><span>Миры Иггдрасиль. Муспельхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Муспельхейма</span></li>
-							<li><span>Миры Иггдрасиль. Свартальфхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Свартальфхейма</span></li>
-							<li><span>Миры Иггдрасиль. Йотунхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Йотунхейма</span></li>
-							<li><span>Миры Иггдрасиль. Хельхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Хельхейма</span></li>
-							<li><span>Миры Иггдрасиль. Ванахейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Ванахейма</span></li>
-							<li><span>Миры Иггдрасиль. Альвхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Альвхейма</span></li>
-							<li><span>Миры Иггдрасиль. Нильфхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Нильфхейма</span></li>
-							<li><span>Миры Иггдрасиль. Асгард. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Асгарда</span></li>
-							<li><span>Посвящение в Эрили. Мужской и женский аспекты Посвящения. Составление Заклинания Девяти Миров</span></li>
+							<li><span>Гадание на рунах. Основы рунической мантики. Гадательные значения рун. Прямое и перевернутое значение рун. Рунический расклад «Ответ по трем рунам»</span></li>
+							<li><span>Тематические расклады. Принципы формирования тематических раскладов. Расклады Уруз, Наутиз, Беркана. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Феху, Хагалаз, Тейваз. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Эйваз, Турсуз, Иса. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Ингуз, Перт, Кеназ. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Вуньо, Соулу, Опила Практика</span></li>
+							<li><span>Тематические расклады. Расклады Гебо, Альгиз, Дагаз. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Райдо, Лагус, Эйви. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Анзус, Маннас, Джера. Практика</span></li>
+							<li><span>Комплексное использование раскладов. Комбинирование. Рекурсивная мантика</span></li>
+							<li><span>Рекурсивная мантика. Практика</span></li>
 						</ol>
 					</div>
 					<div class="col-md-5 col-sm-6">
 						<h5 class="module-results-title">По результатам прохождения пакета "ПЛАТИНА" Вы сможете:<small>Всё, что входит в пакеты "СЕРЕБРО "и "ЗОЛОТО", а также</small></h5>
 						<ul class="module-results-list">
-							<li>Работать с энергиями Древа Иггдрасиль, которые многократно усиливают ваше энерго-информационное воздействие;</li>
-							<li>Путешествовать в миры Древа Иггдрасиль, набирать там опыт, знания, энергию, личную силу;</li>
-							<li>Использовать энергию того или иного Мира для своих нужд;</li>
-							<li>Комбинировать энергии разных Миров для достижения максимального результата;</li>
-							<li>Создать уникальное Заклинание Девяти Миров, которое, будучи записанным на Талисман Эриля, даст вам практически неограниченные энергоресурсы;</li>
-							<li>Получить Посвящение в Эрили, которое позволит вам работать в рунических потоках максимально эффективно и безопасно;</li>
-							<li>Получить Посвящение в Эрили в мужском или женском аспектах (в зависимости от пола студента);</li>
-							<li>Гадать на рунах по любым вопросам и ситуациям</li>
+							<li>использовать руны в качестве уникального гадательного инструмента, который дает прямолинейные и точные ответы!</li>
+							<li>вы узнаете о гадательном значении каждой руны в двух вариациях (прямаяперевернутая);</li>
+							<li>вы научитесь соединять значения рун в раскладах, чтобы понимать тот ответ, который руны дают вам;</li>
+							<li>Благодаря авторской методике рунической мантики, вам не нужно будет вызубривать значения рун! Запоминание смыслов проходит на интуитивно понятном уровне;</li>
+							<li>вы узнаете авторские рунические расклады, разработанные Василием Поповым для своих собственных практик. Мастер готов научить им вас!</li>
+							<li>Рунические расклады дадут вам возможность рассмотреть абсолютно все аспекты вашей жизни: здоровье, отношения, деньги, любовь, причины несчастий и кризисов, вопросы предназначения и многое другое!</li>
 						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="technics">
+		<div class="container">
+			<h3 class="general-title">Основные техники, которые будут на курсе:</h3>
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<div class="technic technic-1">
+						<p class="technic-text">использование рун, как способов работы с энергиями и направление энергий как внутрь себя, как и во внешнее пространство</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="technic technic-2">
+						<p class="technic-text">создание рунических мандал, как способ фиксации вашего воздействия на длительное время</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="technic technic-3">
+						<p class="technic-text">зарядка рун для усиления эффекта от воздействий</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2">
+					<div class="technic technic-4">
+						<p class="technic-text">особые медитации, направленные на концентрацию внимания и глубинного изменения тела, эмоций, разума, что позволит многократно усилить эффект от воздействий</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="technic technic-5">
+						<p class="technic-text">рунические расклады - дают возможность не только диагностировать ситуации (“узнать все про всех”), но и скорректировать их</p>
 					</div>
 				</div>
 			</div>
@@ -237,7 +365,7 @@
 								<h4 class="packet-head-title"><small>пакет</small>"Платина"</h4>
 							</div>
 							<div class="packet-body">
-								<h5 class="packet-body-title">ВСЁ, что входит в пакеты "СЕРЕБРО" и "ЗОЛОТО" <br />+<br />Магия Древа Иггдрасиль. Параллельные Миры</h5>
+								<h5 class="packet-body-title">ВСЁ, что входит в пакеты "СЕРЕБРО" и "ЗОЛОТО" <br />+<br />Руническая мантика</h5>
 								<p class="more-button" data-toggle="modal" data-target="#Modal-3">подробнее</p>
 							</div>
 							<div class="packet-footer">
@@ -466,19 +594,19 @@
 				<div class="modal-wrapper">
 					<button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					<div class="modal-body">
-						<h5 class="module-subtitle">Магия Древа Иггдрасиль. Параллельные Миры</h5>
+						<h5 class="module-subtitle">Руническая мантика</h5>
 						<ol class="module-list">
-							<li><span>Введение в магию параллельных миров. Древо Иггдрасиль как карта. Классификация Миров Иггдрасиль. Понятие порталов. Высокочастотные и низкочастотные порталы. Создание ВЧ порталов. Навигация по мирам Иггдрасиль. Практическая польза от работы с параллельными мирами</span></li>
-							<li><span>Миры Иггдрасиль. Мидгард. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Мидгарда</span></li>
-							<li><span>Миры Иггдрасиль. Муспельхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Муспельхейма</span></li>
-							<li><span>Миры Иггдрасиль. Свартальфхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Свартальфхейма</span></li>
-							<li><span>Миры Иггдрасиль. Йотунхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Йотунхейма</span></li>
-							<li><span>Миры Иггдрасиль. Хельхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Хельхейма</span></li>
-							<li><span>Миры Иггдрасиль. Ванахейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Ванахейма</span></li>
-							<li><span>Миры Иггдрасиль. Альвхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Альвхейма</span></li>
-							<li><span>Миры Иггдрасиль. Нильфхейм. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Нильфхейма</span></li>
-							<li><span>Миры Иггдрасиль. Асгард. Создание ВЧ портала и переход. Создание маяков. Освоение пространства. Освоение энергий Асгарда</span></li>
-							<li><span>Посвящение в Эрили. Мужской и женский аспекты Посвящения. Составление Заклинания Девяти Миров</span></li>
+							<li><span>Гадание на рунах. Основы рунической мантики. Гадательные значения рун. Прямое и перевернутое значение рун. Рунический расклад «Ответ по трем рунам»</span></li>
+							<li><span>Тематические расклады. Принципы формирования тематических раскладов. Расклады Уруз, Наутиз, Беркана. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Феху, Хагалаз, Тейваз. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Эйваз, Турсуз, Иса. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Ингуз, Перт, Кеназ. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Вуньо, Соулу, Опила Практика</span></li>
+							<li><span>Тематические расклады. Расклады Гебо, Альгиз, Дагаз. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Райдо, Лагус, Эйви. Практика</span></li>
+							<li><span>Тематические расклады. Расклады Анзус, Маннас, Джера. Практика</span></li>
+							<li><span>Комплексное использование раскладов. Комбинирование. Рекурсивная мантика</span></li>
+							<li><span>Рекурсивная мантика. Практика</span></li>
 						</ol>
 					</div>
 				</div>
@@ -486,8 +614,13 @@
 		</div>
 	</div>
 	<script src="../js/course.min.js"></script>
-	<!-- BEGIN JIVOSITE CODE {literal} --><script src="//code.jivosite.com/widget.js" data-jv-id="UPm98E8VpR" async="async"></script><!-- {/literal} END JIVOSITE CODE -->
-	<!-- AutoWebOffice: UTM or OpenStat Counter --><script type="text/javascript">var url = "https://shop.mastervision.su/?r=api/utmopenstat";</script><script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->
+	<!-- BEGIN JIVOSITE CODE {literal} -->
+	<script src="//code.jivosite.com/widget.js" data-jv-id="UPm98E8VpR" async="async"></script><!-- {/literal} END JIVOSITE CODE -->
+	<!-- AutoWebOffice: UTM or OpenStat Counter -->
+	<script type="text/javascript">
+		var url = "https://shop.mastervision.su/?r=api/utmopenstat";
+	</script>
+	<script type="text/javascript" src="https://shop.mastervision.su/js/utm_openstat.js" defer="defer"></script><!-- /AutoWebOffice: UTM or OpenStat Counter -->
 </body>
 
 </html>
